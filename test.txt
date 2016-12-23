@@ -1,0 +1,8 @@
+With Jekyll, we’ll be able to process SCSS (Sass) files into CSS (.scss -> .css), and Markdown into HTML (.md -> .html). No additional task runners or Terminal commands are required!
+
+There are a few important things to know about the Jekyll file system.
+
+The “distribution” folder is called _site. This is what the static site generator generates! Never place any files in that folder; they will be deleted and overwritten.
+The _sass folder is for Sass partials. Every file in here should begin with an underscore, and it will compile into the css folder.
+Any file or folder placed into the main directory will compile into the _site directory as-is.
+
